@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #f7f6f3;
+    color: #292725;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6.5em;
+    padding: 0 5em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+}
+
+.logo-mark {
+    width: 3.4em;
+    height: 3.4em;
+    background-color: #4d4945;
+    border-radius: 0.7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-title {
+    font-size: 1.45em;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 3.5em;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #292725;
+    font-size: 1em;
+    transition: color 0.2s ease;
+}
+
+.menu a:hover {
+    opacity: 0.55;
+}
+
+.hero{
+    width: 100%;
+    height: 25em;
+    margin: 2 em 0 4em 0;
+    display: grid;
+    grid-template-columns: 1fr 1.35fr 1fr;
+    overflow: hidden;
+}
+
+.hero-left,
+.hero-right {
+    background-color: #504b47;
+    color: #f4f1eb;
+    padding: 2.5em 3.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+} 
+.hero-image {
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero h1,
+.hero h2 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    line-height: 1.15;
+    margin-bottom: 1em;
+}
+
+.hero h1 {
+    font-size: 1.7em;
+}
+
+.hero h2 {
+    font-size: 1.5em;
+}
+
+.hero p {
+    font-size: 0.85em;
+    line-height: 1.6;
+    margin-bottom: 1.2em;
+    max-width: 22em;
+}
+
+.essenza{
+    width: 85%;
+    margin: 5em auto;
+    text-align: center;
+}
+
+.essenza-title h2{
+    font-family: Georgia, serif;
+    font-size: 2em;
+    font-weight: normal;
+    color: #292725;
+}
+
+.essenza-title p{
+    margin-top: 1em;
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: #6b6763;
+}
+
+.essenza-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3em;
+    margin-top: 4em;
+}
+
+.essenza-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.essenza-item h3{
+    margin-top: 0.3em;
+    margin-bottom: 1.5em;
+    font-family: Georgia, serif;
+    font-size: 1.35em;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #1f1e1c;
+}
+
+.essenza.item p{
+    margin-top: 0em;
+    max-width: 18em;
+    font-size: 0.82em;
+    line-height: 1.7;
+    color: #77726d;
+}
+
+.icon{
+    width: 4em;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon svg {
+    width: 3em;
+    height: 3em;
+    fill: none;
+    stroke: #4d4945;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.chi-siamo-bg {
+    width: 100%;
+    background-color: #ebe8e2;
+}
+
+.chi-siamo{
+    width: 85%;
+    height: 32em;
+    margin: 8em auto;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+}
+
+.chi-siamo-image{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.chi-siamo-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.chi-siamo-content{
+    background-color: #ebe8e2;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section-label{
+    font-size: 0.75em;
+    letter-spacing: 0.2em;
+    color: #77726d;
+    margin-bottom: 1.5em;
+}
+
+.chi-siamo-content h2{
+    font-family: Georgia, serif;
+    font-size: 2.3em;
+    font-weight: normal;
+    line-height: 1.15;
+    color: #1f1e1c;
+    margin-bottom: 1em;
+}
+
+.chi-siamo-content p{
+    font-size: 0.9em;
+    line-height: 1.7;
+    color: #625e5a;
+    margin-bottom: 1.2em;
+    max-width: 30em;
+}
+
+.btn-scopri {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.9em 1.8em;
+    background-color: #4d4945;
+    color: #f7f6f3;
+    text-decoration: none;
+    font-size: 0.85em;
+    letter-spacing: 0.05em;
+    transition: 0.3s ease;
+}
+
+.btn-scopri:hover{
+    background-color: #292725;
+    transform: translateY(-0.2em);
+    cursor: pointer;
+}
+
+.progetti{
+    width: 92%;
+    margin: 7em auto;
+}
+
+.progetti-title{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.progetti-title h2{
+    margin-top: 0.4em;
+    font-family: Georgia, serif;
+    font-size: 2.3em;
+    font-weight: normal;
+    color: #1f1e1c;
+}
+
+.progetti-title p{
+    margin: 1em auto 0;
+    max-width: 32em;
+    font-size: 0.9em;
+    line-height: 1.7;
+    color: #77726d;
+}
+
+.progetti-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    margin-top: 3.5em;
+}
+
+.progetto-card{
+    height: 16em;
+    overflow: hidden;
+    position: relative;
+}
+
+.progetto-card::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60%;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.75) 0%,
+        rgba(0, 0, 0, 0.25)55%,
+        transparent 100%
+    );
+}
+
+.progetto-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.progetto-card:hover img{
+    transform: scale(1.05);
+}
+
+.progetto-info{
+    position: absolute;
+    left: 1.5em;
+    bottom: 1.4em;
+    color: white;
+    z-index: 1;
+}
+
+.progetto-info h3{
+    font-family: Georgia, serif;
+    font-size: 1.3em;
+    font-weight: normal;
+    margin-bottom: 0.3em;
+}
+.progetto-info p{
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.footer{
+    background-color: #3f3b38;
+    color: #f4f1eb;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    padding: 4em 6em;
+    margin-top: 6em;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.footer-title{
+    font-family: Georgia, serif;
+    font-size: 1.4em;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.footer-links a{
+    color: #f4f1eb;
+    text-decoration: none;
+    font-size: 0.85em;
+    transition: opacity 0.3s ease;
+}
+
+.footer-links a:hover{
+    opacity: 0.55;
+}
+
+.footer-contact{
+    font-size: 0.8em;
+    line-height: 1.8;
+    color: #c9c5bf;
+}
