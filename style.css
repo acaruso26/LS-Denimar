@@ -388,3 +388,237 @@ body {
     line-height: 1.8;
     color: #c9c5bf;
 }
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        height: auto;
+        padding: 1.2em 1.3em;
+    }
+
+    .logo {
+        gap: 0.6em;
+    }
+
+    .logo-mark {
+        width: 2.8em;
+        height: 2.8em;
+    }
+
+    .logo-title {
+        font-size: 1.1em;
+    }
+
+    .menu {
+        gap: 1em;
+    }
+
+    .menu a {
+        font-size: 0.8em;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        width: 100%;
+        height: auto;
+        margin: 1em 0 3em 0;
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .hero-left,
+    .hero-right {
+        padding: 3.5em 2em;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero h2 {
+        font-size: 1.8em;
+    }
+
+    .hero p {
+        font-size: 0.9em;
+        max-width: 28em;
+    }
+
+    .hero-image {
+        height: 22em;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    /* LA NOSTRA ESSENZA */
+
+    .essenza {
+        width: 88%;
+        margin: 4em auto;
+    }
+
+    .essenza-title h2 {
+        font-size: 1.8em;
+    }
+
+    .essenza-title p {
+        font-size: 0.9em;
+    }
+
+    .essenza-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3em 1.5em;
+        margin-top: 3em;
+    }
+
+    .icon {
+        width: 3.5em;
+        height: 3.5em;
+    }
+
+    .icon svg {
+        width: 2.7em;
+        height: 2.7em;
+    }
+
+    .essenza-item h3 {
+        font-size: 1.15em;
+        margin-top: 0.3em;
+        margin-bottom: 0.8em;
+    }
+
+    .essenza-item p {
+        font-size: 0.78em;
+        line-height: 1.6;
+    }
+
+
+    /* CHI SIAMO */
+
+    .chi-siamo-bg {
+        padding: 0;
+    }
+
+    .chi-siamo {
+        width: 100%;
+        height: auto;
+        margin: 0;
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .chi-siamo-image {
+        height: 22em;
+    }
+
+    .chi-siamo-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .chi-siamo-content {
+        padding: 3.5em 2em;
+    }
+
+    .chi-siamo-content h2 {
+        font-size: 2em;
+    }
+
+    .chi-siamo-content p {
+        font-size: 0.9em;
+        max-width: none;
+    }
+
+    .btn-scopri {
+        margin-top: 1em;
+    }
+
+
+    /* PROGETTI */
+
+    .progetti {
+        width: 90%;
+        margin: 5em auto;
+    }
+
+    .progetti-title {
+        margin-bottom: 2.5em;
+    }
+
+    .progetti-title h2 {
+        font-size: 2em;
+    }
+
+    .progetti-title p {
+        font-size: 0.9em;
+        padding: 0 1em;
+    }
+
+    .progetti-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+    }
+
+    .progetto-card {
+        height: 15em;
+    }
+
+    .progetto-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .progetto-info {
+        left: 1em;
+        bottom: 1em;
+    }
+
+    .progetto-info h3 {
+        font-size: 1.05em;
+    }
+
+    .progetto-info p {
+        font-size: 0.7em;
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+        grid-template-columns: 1fr;
+        gap: 2.5em;
+
+        padding: 3em 2em;
+        margin-top: 4em;
+    }
+
+    .footer-logo {
+        gap: 0.8em;
+    }
+
+    .footer-title {
+        font-size: 1.3em;
+    }
+
+    .footer-links {
+        gap: 0.7em;
+    }
+
+    .footer-contact {
+        font-size: 0.8em;
+    }
+
+}
